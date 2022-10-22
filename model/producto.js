@@ -9,10 +9,20 @@ class itemShop{
         this.image = image;
         this.rating = rating;
     }
-
     render(){
-        let html = ``;
-        return html;
+        container.innerHTML += `<div class="card">
+        <div class="VisualP">
+            <img src="${this.image}" alt="">
+        </div>
+        <div class="titulo">
+            ${this.title}
+        </div>
+        <div class="price">
+            <b>${this.price}</b>
+        </div>
+        <button class="button">Comprar</button>
+    </div>`;
+        //return html;
     }
     
 }

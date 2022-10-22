@@ -34,3 +34,51 @@ section{
     margin: 0 auto;
     font-size: 60px;
 }
+.container{
+    width: 70%;
+    height: 2500px;
+    /*background-color: aquamarine;*/
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    width: 250px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.692);   
+}
+.VisualP{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(31, 24, 13);
+}
+.VisualP img{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(31, 24, 13);
+}
+.titulo{
+    width: 230px;
+    margin-top: 15px;
+}
+.price{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.button{
+    border-radius: 25px;
+    height: 35px;
+    width: 65px;
+    margin-top: 10px;
+}
+.button:hover{
+    scale: 1.1;
+    transition: 1.1s;
+}
